@@ -1,0 +1,33 @@
+# Virtual env
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Secrets & local config
+.env
+*.env
+!.env.example
+
+# Django
+db.sqlite3
+media/
+staticfiles/
+*.log
+
+# Celery
+celerybeat-schedule*
+celerybeat.pid
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
